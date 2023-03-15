@@ -19,7 +19,7 @@ int NaturalNumber ( int n, int m )
     if ( n==m )
         return n;
     else 
-        WriteLine ($"{NaturalNumber (n, m + 1)}, ");
+        WriteLine ($"{NaturalNumber (n, m + 1)} ");
     return m;
 }
 
